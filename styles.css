@@ -1,0 +1,106 @@
+body {
+  background-color: #011F3F;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+/* ON SCREEN DISPLAY */
+h1 {
+  display: inline-block;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: 2%;
+  color: #FEF2BF;
+}
+
+#record {
+  color: #FEF2BF;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+/* GAME AREA */
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+/* BUTTONS */
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+/* ANIMATIONS */
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1127px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 536px) and (max-width: 710px) {
+  body {
+    margin-top: 5%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 5%;
+  }
+
+  .btn {
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+  }
+}
+
+@media (max-width: 535px) {
+  body {
+    margin-top: 5%;
+  }
+
+  h1 {
+    font-size:2rem;
+    margin-top: 5%;
+  }
+
+  .btn {
+    width: 110px;
+    height: 110px;
+    margin: 15px;
+    border: 5px solid black;
+  }
+}
