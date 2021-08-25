@@ -65,6 +65,8 @@ function checkAnswer(currentLevel) {
         nextSequence();
       }, 1000);
     }
+  } else if (userClickedPattern.length > gamePattern.length) {
+    // Prevents throwing "game over" error before game starts
   } else {
     gameOver();
   }
