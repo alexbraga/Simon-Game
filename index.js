@@ -98,4 +98,3 @@ function record(bestLevel) {
     gameRecord = bestLevel;
   }
 }
-
