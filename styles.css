@@ -93,7 +93,7 @@ h1 {
   }
 
   h1 {
-    font-size:2rem;
+    font-size: 2rem;
     margin-top: 5%;
   }
 
@@ -102,5 +102,15 @@ h1 {
     height: 110px;
     margin: 15px;
     border: 5px solid black;
+  }
+}
+
+@media (max-width: 409px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  #record {
+    font-size: 0.65rem;
   }
 }
