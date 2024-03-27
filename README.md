@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://alexbraga.github.io/Simon-Game/">Simon Game</a>
+  <a href="https://alexbraga.github.io/simon-game/">Simon Game</a>
 </h1>
 
 <h3 align="center">
@@ -7,7 +7,7 @@
 </h3>
 
 <p align="center">
-  <a href="https://github.com/alexbraga/Simon-Game/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alexbraga/Simon-Game"></a>
+  <a href="https://github.com/alexbraga/simon-game/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alexbraga/simon-game"></a>
 </p>
 
 <h4 align="center">
@@ -16,7 +16,7 @@
 
 ## About
 
-<p align="justify">JavaScript project built for <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2021 Web Development Bootcamp</a>. Live demo available <a href="https://alexbraga.github.io/Simon-Game/">here</a>.</p>
+<p align="justify">JavaScript project built for <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2021 Web Development Bootcamp</a>. Live demo available <a href="https://alexbraga.github.io/simon-game/">here</a>.</p>
 
 ---
 
